@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    background-color: black;
+    font-family: 'Roboto', sans-serif; ;
+    }
+    
+    
+    header{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        background-color: #1D2540;
+        padding: 0px 5%;
+        height: 50px;  
+    }
+    
+    .logo{
+        height: 50px;
+        width: auto;    
+        cursor: pointer;
+    }
+    
+    li ,a{
+        font-weight: 50;
+        font-size: 18;
+        color: white;
+        text-decoration: none;
+    }
+    
+    .nav-links li{
+        display: inline-block;
+        padding: 0px 20px;
+    }
+    .nav-links li a{
+        transition: all 0.3s ease 0s;
+    }
+    .nav-links li a:hover{
+        color: rgb(153, 153, 153);
+    }
+    .menu-btn{
+        display: none;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @media screen and (max-width: 1440px){
+       
+        
+    
+    
+    }
+    
+    
+    @media screen and (max-width: 1025px){
+    
+       
+        .nav-links li{
+            padding: 0px 5px;
+        }
+    
+    
+    }
+    
+    
+    @media screen and (max-width: 786px){
+    
+        header{
+            justify-content:space-between;
+        
+        }
+        .logo{
+            margin-right: 50px;
+        }
+        .menu-btn{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+            border: 3px solid #1D2540;
+        }
+        
+        .menu-btn__burger{
+            width: 30px;
+            height: 4px;
+            background: rgb(255, 255, 255);
+            border-radius: 5px;
+        }
+    
+        .menu-btn__burger::before,
+        .menu-btn__burger::after{
+            content: '';
+            position: absolute;
+            width: 30px;
+            height: 4px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 5px;
+        }
+        .menu-btn__burger::before{
+            transform: translateY(-10px);
+        }
+        .menu-btn__burger::after{
+            transform: translatey(10px);
+        }
+    
+    
+    
+    
+    
+        .nav-links{
+            display: none;
+        }
+    
+    
+    }
+    
+    
+    @media screen and (max-width: 480px){
+    
+        }
+    
+    }
+    
