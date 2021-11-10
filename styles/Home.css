@@ -1,7 +1,7 @@
 
 body{
 margin: 0;
-background-color: black;
+background-color: rgb(255, 255, 255);
 font-family: 'Roboto', sans-serif; ;
 }
 
@@ -14,6 +14,8 @@ header{
     padding: 0px 5%;
     height: 50px;  
 }
+
+
 
 .logo{
     height: 50px;
@@ -43,6 +45,46 @@ li ,a{
 }
 
 
+.image-1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  .fas {
+      color: black;
+      font-size: 20px;
+
+  }
+
+  .wrapper-1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .box {
+    max-width: 345px;
+    margin-right: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 1px solid #000;
+    text-align: center;
+  }
+  
+  .wrapper-1 button {
+    background-color: rgb(255, 251, 0);
+    border-color: #000;
+    border-radius: 10px;
+    height: 50px;
+    width: 150;
+    margin-top: -70px;
+  }
+
+  .box:nth-child(1){
+      margin-left: 20px;
+  }
+
+
 
 
 
@@ -64,6 +106,10 @@ li ,a{
    
     .nav-links li{
         padding: 0px 5px;
+    }
+    .wrapper-1 button{
+        height: 40px;
+        width: 140;
     }
 
 
@@ -111,6 +157,13 @@ li ,a{
     }
     .menu-btn__burger::after{
         transform: translatey(10px);
+    }
+
+    .box:nth-child(1){
+        display: none;
+    }
+    .box:nth-child(2){
+        margin-left: 20px;
     }
 
 
